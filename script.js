@@ -44,6 +44,7 @@ buttons.forEach((button) => {
     if (value === "←") {
       currentInput = currentInput.slice(0, -1) || 0;
       updateDisplay(currentInput);
+      
       return;
     }
 
